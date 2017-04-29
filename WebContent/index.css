@@ -1,0 +1,98 @@
+@CHARSET "ISO-8859-1";
+h3 {
+  color: crimson;
+  background: rgba(255, 255, 255, 0.9);
+  font-family: 'sans-serif';
+  font-size: 28px;
+  text-align: center;
+  text-transform: uppercase;
+  position: static;
+}
+h1 {
+  color: gainsboro;
+  font-family: 'Amatic SC', cursive;
+  font-size: 42px;
+  line-height: 60px;
+  padding: 20px 10px;
+  text-align: center;
+}
+.navigation {
+  background-color: rgba(255, 255, 255, 0.9);
+  overflow-y: auto;
+  position: fixed;
+  float:right;
+  left: 0;
+  top: 0;
+  text-align: center;
+  width: 100%;
+  z-index: 10000;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  color: #14213D;
+  display: inline-block;
+  font-family: 'sans-serif'';
+  font-size: 16px;
+  font-weight: 300;
+  margin: 16px 20px;
+  text-transform: uppercase;
+}
+
+#logo {
+  color: #FCA311;
+  font-family: 'cursive'';
+  font-size: 32px;
+  padding: 0px 50px;
+}
+.cover-content {
+  margin: 0 auto;
+  position: relative;
+  text-align: center;
+  top: 280px;
+  width: 70%;
+}
+#cover {
+  background-image: url("http://i.imgur.com/6oYxOfa.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+  position: relative;
+  top: -55px;
+  width: 100%;
+}
+a {
+  text-decoration: none;
+}
+.products {
+  background: #EEEFF1;
+  box-sizing: border-box;
+  width: 90%;
+  margin: 20px auto;
+  padding: 20px 0px;
+  text-align: center;
+}
+
+.product {
+  display: inline-block;
+  margin: 0px 2% 80px 2%;
+  text-align: center;
+  width: 45%;
+}
+
+.product img {
+  width: 100%;
+}
+
+.blue {
+  color: #14213D !important;
+}
+p {
+  color: #333;
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+}
